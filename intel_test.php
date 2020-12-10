@@ -113,8 +113,8 @@ if(isset($_FILES['excel']) && $_FILES['excel']['error']==0) {
 ?>
 <div class="container">
 <form action = "" method = "POST" enctype = "multipart/form-data">
-         <input type = "file" name = "excel" onchange="ValidateSingleInput(this)" /></form><br>
-         <input type = "submit" value="Upload" class="btn-success" />
+         <input type = "file" name = "excel" onchange="ValidateSingleInput(this)" />
+         <input type = "submit" value="Upload" />
 </form>
 </div>
 </div>
